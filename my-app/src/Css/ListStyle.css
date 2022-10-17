@@ -1,0 +1,37 @@
+:root{
+    --mainColor :#8B008B;
+}
+header{
+    background-color: var(--mainColor);
+}
+.container{
+width:  95%;
+margin: 0 auto;
+max-width: 1200px;
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    width: 100px;
+    padding: 1em 0;
+}
+.listItem{
+    margin-left: 2em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'popins', sans-serif;
+}
+.activeItem{
+    color: orange;
+    border-bottom: .1em double white ;
+}
+.Icon{
+     color: white;
+     font-size: 1.5rem !important;
+    margin-right: 1.5em;
+    margin-left: 1.5em; 
+}
